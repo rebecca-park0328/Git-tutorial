@@ -4,41 +4,51 @@
 <title>Rebecca's website</title>
 <meta charset= "utf-8">
 <style>
-body{
-  margin:0;
-}
-ol{
-  border-right: 1px solid gray;
-  width: 100px;
-  margin: 0;
-  padding:20px;
-}
-a {
-  color:black;
-  text-decoration: none;
-}
-h1{
-  font-size: 45px;
-  text-align: center;
-    border-bottom: 1px solid gray;
-    margin:0;
-    padding:20px;
-}
+   body{
+       margin:0;
+       }
+   ol{
+      border-right: 1px solid gray;
+      width: 100px;
+      margin: 0;
+      padding:20px;
+      padding-left: 33px;
+      }
+    a {
+      color:black;
+      text-decoration: none;
+      }
+    h1{
+      font-size: 45px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin:0;
+      padding:20px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #article{
+        padding-left: 25px;
+      }
 </style>
 </head>
 <body>
-<h1><a href="index.ht">WEB-HTML</a></h1>
-<ol>
-  <li><a href="1.html" style="color: green">HTML</a></li>
-  <li><a href="2.html">CSS</a></li>
-  <li><a href="3.html">JavaScript</a></li>
+  <h1><a href="index.ht">WEB-1</a></h1>
+  <div id="grid">
+  <ol>
+      <li><a href="1.html" style="color: green">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
   </ol>
-<h2>HTML</h2>
-<h3>In The Library, students get to hide their heads</h3>
-<br>
-<u>By Rebecca Park<br>
-Published: Jan,17,2020</u><br><br>
-<img src="/Users/kis/Desktop/web/gregory-pappas-rUc9hVE-L-E-unsplash.jpg" width=100%>
+  <div id="article">
+  <h2>HTML</h2>
+  <h3>In The Library, students get to hide their heads</h3>
+  <br>
+  <u>By Rebecca Park<br>
+  Published: Jan,17,2020</u><br><br>
+  <img src="/Users/kis/Desktop/web/gregory-pappas-rUc9hVE-L-E-unsplash.jpg" width=100%>
    <p>Eye witness claimed a KISJ pupil, an elementary school student, who was a girl wearing big ribbons on her head covered her entire face with the bulky, and big book in the library which was about the ionization energy works, three days ago.
   She covered her face with the book to hide the fact that she was sleeping during the reading time.
   A book was held by her hand to cover her face.
@@ -47,10 +57,17 @@ Published: Jan,17,2020</u><br><br>
   It is very pensive problem because over and over time flows like water, more and more students get to fall asleep in the school due to the lack of sleep.
   There were even two students who were right about to sleep in the social studies class, two days ago.
   It is indubitably important not to make sleeping problems get to have a serious relapse.</p>
-  <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
-  </p>
-  <div id="disqus_thread"></div>
-<script>
+</div>
+</div>
+
+
+
+
+
+     <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+     </p>
+     <div id="disqus_thread"></div>
+     <script>
 
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
